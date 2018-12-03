@@ -8,7 +8,7 @@
   "description": "Project 2 for IGME-430",
   "main": "./server/app.js",
   "scripts": {
-    "build": "npm run buildHomeBundle && npm run buildCreateBundle && npm run buildDisplayBundle && npm run buildAccountBundle",
+    "build": "npm run buildHomeBundle && npm run buildCreateBundle && npm run buildDisplayBundle && npm run buildAccountBundle && npm run buildExpenseBundle",
     "buildHomeBundle": "babel ./client/home/home.js ./client/helper --presets react --out-file ./hosted/homeBundle.js",
     "buildCreateBundle": "babel ./client/app/create.js ./client/helper --presets react --out-file ./hosted/createBundle.js",
     "buildDisplayBundle": "babel ./client/app/display.js ./client/helper --presets react --out-file ./hosted/displayBundle.js",
